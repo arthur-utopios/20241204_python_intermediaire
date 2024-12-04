@@ -1,0 +1,3 @@
+# Formation Python Intermédiaire
+
+## Ressources
