@@ -24,3 +24,8 @@ Pour cela on peut utiliser des formateurs existants pour python, notamment:
 
 1. [Black](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter)
 2. [Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff) : plus performant et plus récent
+
+## Ressources SQL
+
+- [sql.sh](https://sql.sh/)
+- [documentation mariadb](https://mariadb.com/kb/en/sql-statements-structure/)
