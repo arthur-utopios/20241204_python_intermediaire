@@ -1,5 +1,7 @@
 import mariadb
 import sys
+from singledao import SingleDAO
+from models import Single
 
 def main():
     # Connect to MariaDB Platform
@@ -63,7 +65,27 @@ def use_with():
 
 if __name__ == "__main__":
     # main()
-    hello = "hello"
-    print(type([hello]))
-    print(type((hello,)))
-    use_with()
+    # hello = "hello"
+    # print(type([hello]))
+    # print(type((hello,)))
+    # use_with()
+
+    singledao = SingleDAO()
+
+    # titre = input("Saisir un titre de single: ")
+    # duree = int(input("Durée du titre: "))
+
+    # single = Single(0, titre, duree)
+    # singledao.save(single)
+
+    single1 = Single(1, "toto", 130)
+    single2 = Single(1, "toto", 130)
+
+    if(single1 == single2):
+        print("Ils sont égaux")
+    else:
+        print("Ils ne sont pas égaux")
+
+    singles = singledao.get_all()
+
+    print(singles)
