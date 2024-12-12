@@ -1,0 +1,18 @@
+[project]
+name = "demo-uv"
+version = "0.1.0"
+description = "Démonstration d'un gestionnaire de packages"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mariadb>=1.1.11",
+]
+
+[tool.ruff.lint]
+select = ["E", "F"]
+ignore = ["F401"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.4",
+]
