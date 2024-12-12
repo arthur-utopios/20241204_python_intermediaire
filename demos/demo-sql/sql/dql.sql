@@ -172,5 +172,5 @@ JOIN
 ORDER BY
 	g.nom,
 	d.titre,
-	s.titre
+	s.titre;
 	
